@@ -86,9 +86,9 @@
      }, 1000);
 }, 1000);
 const myPromise = new Promise((resolve , reject)=>{
-    username = "Muskan Jaiswal";
+    username = "Mallika Rathi";
     password = "12345678"
-    if(username=="Muskan Jaiswal" && password == "12345678"){
+    if(username=="Mallika Rathi" && password == "12345678"){
         resolve("Success")
     } else{
         reject("username or password is incorrect")
@@ -101,3 +101,14 @@ myPromise.then((msg)=>{
 }).finally(()=>{
     console.log("All the resources have been closed/memory released")
 })
+async function handlelogin() {
+    try{
+        await myPromise
+    }catch(e){
+        console.log(e)
+    }
+    finally{
+        console.log("All the resources have been closed/memory released")
+    }
+}
+handlelogin();
