@@ -1,13 +1,8 @@
- import ICard from './component/ICard'
- import ICardGallery from './component/ICardGallery'
- import './App.css'
+import ICardGallery from './component/ICardGallery'
 
 function App() {
   return (
-    <div>
-    <ICard />
-    <ICardGallery/>
-    </div>
+    <ICardGallery />
   )
 }
 

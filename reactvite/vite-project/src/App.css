@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,28 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icard {
+  border: 3px solid black;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-family: cursive;
+}
+
+.icard img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+}
+
+.icard h3 {
+  color: black;
 }

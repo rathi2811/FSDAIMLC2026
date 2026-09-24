@@ -1,18 +1,37 @@
-
 import React from 'react'
 
 function ICard(props) {
   return (
-    <div style={{border:'2px solid black',height:'2px',width:'200%',margin:'10px'}}> 
+    <div style={{
+      border: '2px solid black',
+      height: '450px',
+      width: '300px',
+      margin: '10px',
+      padding: '10px',
+      color: 'black',
+      fontFamily: 'cursive',
+      textAlign: 'center'
+    }}> 
 
-      <h2 style={{backgroundColor:'brown',color:'white'}}>ABES Engineering College</h2>
-      {/* <h2 style={{color:'red'}}>Welcome to react using vite</h2> */}
-      <img src={props.pic} height={200} width={200} ></img>
-      <h3 style={{color:'red'}}>Value of name={props.name}</h3>
-      <h3 style={{color:'red'}}>Roll Number={props.rollNumber}</h3>
-      <h3 style={{color:'red'}}>Branch={props.branch}</h3>
+      <h2 style={{
+        backgroundColor: 'brown',
+        color: 'white',
+        padding: '10px'
+      }}>
+        ABES Engineering College
+      </h2>
 
-      </div>
+      <img
+        src={props.pic}
+        height={200}
+        width={200}
+      />
+
+      <h3>name={props.name}</h3>
+      <h3>Roll Number={props.rollNumber}</h3>
+      <h3>Branch={props.branch}</h3>
+
+    </div>
   )
 }
 
