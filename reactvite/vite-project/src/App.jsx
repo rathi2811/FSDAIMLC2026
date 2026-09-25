@@ -1,8 +1,10 @@
-import ICardGallery from './component/ICardGallery'
+// import Imdbcard from './Imbdcard
+import StateHandling from './component/StateHandling'
 
 function App() {
   return (
-    <ICardGallery />
+    // <Imbdcard />
+    <StateHandling />
   )
 }
 

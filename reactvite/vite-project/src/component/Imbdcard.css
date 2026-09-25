@@ -1,0 +1,59 @@
+.imbd {
+  width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #315b9b;
+  color: white;
+  text-align: center;
+}
+
+.imbd h1 {
+  font-size: 55px;
+  margin: 0;
+}
+
+.imbd h2 {
+  font-size: 35px;
+  margin: 5px;
+}
+
+.imbd h3 {
+  font-size: 28px;
+  margin: 5px;
+}
+
+.imbd p {
+  margin-top: 5px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.movie {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+
+.movie img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rank {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.movie-name {
+  font-size: 20px;
+  font-weight: bold;
+}
